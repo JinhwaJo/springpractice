@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
 
 import jbr.springmvc.model.User;
+import jbr.springmvc.service.UserService;
 /* Controller 제작 순서 ↓
  * @Controller를 이용해서 클래스를 생성한다.
  * @RequestMapping을 이용해, view의 요청 경로 지정한다.
